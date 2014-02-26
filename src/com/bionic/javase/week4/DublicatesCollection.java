@@ -1,6 +1,6 @@
 package com.bionic.javase.week4;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public class DublicatesCollection {
 
@@ -22,6 +22,6 @@ public class DublicatesCollection {
 
 }
 
-class HashSet<Integer> extends ArrayList<Integer> {
-	
-}
+//class HashSet<Integer> extends ArrayList<Integer> {
+//	
+//}
