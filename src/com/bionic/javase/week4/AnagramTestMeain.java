@@ -14,7 +14,7 @@ public class AnagramTestMeain {
 		Integer i3 = 100;
 		set.add(i1);
 		set.add(i1);
-		set.add(i2);
+		set.add(i2); 
 		set.remove(i1);
 		i2 = 47;
 		set.remove(i2);

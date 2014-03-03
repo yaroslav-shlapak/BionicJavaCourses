@@ -30,7 +30,7 @@ public class WordsCounter {
 	}
 	
 	public void inflateMap() {
-		String[] sa = ls.replaceAll("^[,.-]", "").split(" ");
+		String[] sa = ls.replaceAll("^[,.-]", "").replaceAll("\\(", "").replaceAll("\\)", "").split(" ");
 		for(String i : sa) {
 			if(map.containsKey(i))
 				map.put(i, map.get(i) + 1);

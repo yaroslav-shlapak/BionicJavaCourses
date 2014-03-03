@@ -5,7 +5,7 @@ package com.bionic.javase.week4;
 //так і з квадратів, метод show() виводив слово Rectangle або Square в залежності від фактичного типу фігури. 
 //Використати шаблони State/Strategy.
 
-public class StrategicRect implements Strategy {
+public class StrategicRect extends Figure implements Strategy{
 	public int length = 0;
 	public int height = 0;
 
@@ -17,9 +17,7 @@ public class StrategicRect implements Strategy {
 
 }
 
-class Square implements Strategy  {
-	public int length = 0;
-
+class Square extends Figure implements Strategy{
 	@Override
 	public void show() {
 		// TODO Auto-generated method stub
@@ -30,5 +28,14 @@ class Square implements Strategy  {
 
 interface Strategy {
 	public void show();
+	
+}
+
+class Figure{
+	public int length;
+	public int height;
+	
+//	public Figure(Strategy strategy) {
+//	}
 	
 }

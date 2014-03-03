@@ -12,7 +12,9 @@ public class WordsCounterMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Path filePath = Paths.get(
-				"D:\\sources\\github\\java\\BionicJavaCourses\\src\\com\\bionic\\javase\\week4\\JavaDescription.txt");
+				"C:\\y.shlapak\\java\\BionicJavaCourses\\src\\com\\bionic\\javase\\week4\\JavaDescription.txt"
+				//"D:\\sources\\github\\java\\BionicJavaCourses\\src\\com\\bionic\\javase\\week4\\JavaDescription.txt"
+				);
 		WordsCounter wc = new WordsCounter();
 		wc.readFile(filePath);
 		wc.inflateMap();

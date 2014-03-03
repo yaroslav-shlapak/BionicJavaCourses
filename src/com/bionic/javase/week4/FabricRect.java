@@ -6,5 +6,5 @@ package com.bionic.javase.week4;
 //або квадрат в залежності від довжин сторін. Використати шаблон Factory Method.
 
 public class FabricRect {
-
+	
 }
