@@ -1,0 +1,6 @@
+create table app.teams (
+id int not null primary key,
+name varchar(50),
+proj_id int,
+salary int
+)
