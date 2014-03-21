@@ -22,7 +22,6 @@ public class UrlDemo {
 			catch (IOException e) {System.out.println("Read Error");
 			System.exit(3);}
 
-
 	}
 
 }
